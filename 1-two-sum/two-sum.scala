@@ -6,5 +6,5 @@ object Solution {
             case Some(savedIndex) => Array(savedIndex, index)
             case None => findPair(index + 1, current + (nums(index) -> index))
 
-    findPair(0, Map.empty[Int, Int])
+    findPair(0, Map.empty[Int, Int]) 
 }
