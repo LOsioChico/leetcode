@@ -1,6 +1,5 @@
 object Solution {
     def simplifyPath(path: String): String = {
-        println(path.split("/").mkString(" "))
         def iter(path: Array[String], result: Array[String]): String =
             path.headOption match
                 case Some(string) if string == ".." =>
