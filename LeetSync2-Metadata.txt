@@ -1,2 +1,3 @@
 206-reverse-linked-list|Easy|1724648400000
 83-remove-duplicates-from-sorted-list|Easy|1724821200000
+2239-find-closest-number-to-zero|Easy|1725771600000
