@@ -3,3 +3,4 @@
 2239-find-closest-number-to-zero|Easy|1725771600000
 49-group-anagrams|Medium|1728363600000
 20-valid-parentheses|Easy|1763096400000
+17-letter-combinations-of-a-phone-number|Medium|1763701200000
