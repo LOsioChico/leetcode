@@ -14,15 +14,15 @@ class Solution:
             '9': 'wxyz',
         }
 
-        def backtrack(comb):
-            if len(comb) == len(digits):
+        def backtrack(idx, comb):
+            if idx == len(digits):
                 res.append(comb)
                 return
             
-            for letter in digit_to_letters[digits[len(comb)]]:
-                backtrack(comb + letter)
+            for letter in digit_to_letters[digits[idx]]:
+                backtrack(idx + 1, comb + letter)
 
         res = []
-        backtrack("")
+        backtrack(0, "")
 
         return res
